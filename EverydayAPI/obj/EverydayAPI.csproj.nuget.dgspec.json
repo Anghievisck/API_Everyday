@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Pasta\\LicaoDeCasa\\PAM\\API\\EverydayAPI\\EverydayAPI\\EverydayAPI.csproj": {}
+    "F:\\Pasta\\LicaoDeCasa\\PAM\\API\\EverydayAPI\\API_Everyday\\EverydayAPI\\EverydayAPI.csproj": {}
   },
   "projects": {
-    "F:\\Pasta\\LicaoDeCasa\\PAM\\API\\EverydayAPI\\EverydayAPI\\EverydayAPI.csproj": {
+    "F:\\Pasta\\LicaoDeCasa\\PAM\\API\\EverydayAPI\\API_Everyday\\EverydayAPI\\EverydayAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Pasta\\LicaoDeCasa\\PAM\\API\\EverydayAPI\\EverydayAPI\\EverydayAPI.csproj",
+        "projectUniqueName": "F:\\Pasta\\LicaoDeCasa\\PAM\\API\\EverydayAPI\\API_Everyday\\EverydayAPI\\EverydayAPI.csproj",
         "projectName": "EverydayAPI",
-        "projectPath": "F:\\Pasta\\LicaoDeCasa\\PAM\\API\\EverydayAPI\\EverydayAPI\\EverydayAPI.csproj",
+        "projectPath": "F:\\Pasta\\LicaoDeCasa\\PAM\\API\\EverydayAPI\\API_Everyday\\EverydayAPI\\EverydayAPI.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "F:\\Pasta\\LicaoDeCasa\\PAM\\API\\EverydayAPI\\EverydayAPI\\obj\\",
+        "outputPath": "F:\\Pasta\\LicaoDeCasa\\PAM\\API\\EverydayAPI\\API_Everyday\\EverydayAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,16 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.10, )"
             },

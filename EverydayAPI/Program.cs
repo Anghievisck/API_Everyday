@@ -10,7 +10,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<EverydayAPIDbContext>(options => options.UseInMemoryDatabase("EverydayDB"));
+// builder.Services.AddDbContext<EverydayAPIDbContext>(options => options.UseInMemoryDatabase("EverydayDB"));
+builder.Services.AddDbContext<EverydayAPIDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("EverydayAPIConnectionString")));
 
 var app = builder.Build();
 
