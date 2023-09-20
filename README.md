@@ -32,5 +32,5 @@ Combinando conveniência e funcionalidade, a nossa API proporciona uma experiên
   <img src="Prints/SelectById.png">
 
 ### Activity para receber os dados da API:
-  <img src="Prints/Pag1Jornais.png">
-  <img src="Prints/Pag2Jornais.png">
+  <img src="Prints/Pag1Jornais.jpeg">
+  <img src="Prints/Pag2Jornais.jpeg">
